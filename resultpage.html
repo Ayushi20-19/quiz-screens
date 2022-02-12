@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="resultpage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="body">
+        <div class="navbar">
+          <h5 class="logo">QuizApp</h5>
+          <nav>
+            <ul>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">ScoreCards</a></li>
+              <li>
+                <a href="#"><i class="fas fa-user-plus"></i></a>
+              </li>
+            </ul>
+          </nav>
+          <a class="ham-burger" onclick="sideBarShow()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <sidebar class="navsidebar">
+            <span> <a href="./index.html">Home</a> </span>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">ScoreCards</a></li>
+            <li><a href="#">Login/Signup</a></li>
+          </sidebar>
+        </div>
+        <div class="score-content">
+          <div class="question-card">
+            <h1>Question no 1</h1>
+            <div class="questions">
+              <div class="score">
+                <h3>Question: 1/10</h3>
+                <h3>Score: 0</h3>
+              </div>
+              <hr />
+              <h1 class="question">
+                How many days in month of feburary in year of 2022?
+              </h1>
+              <div class="options">
+                <span>Option 1</span>
+                <span>Option 1</span>
+                <span style="background-color: rgb(255, 86, 86)">Option 1</span>
+                <span style="background-color: rgb(86, 255, 120)"
+                  >Option 1</span
+                >
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="question-card">
+            <h1>Question no 2</h1>
+            <div class="questions">
+              <div class="score">
+                <h3>Question: 2/10</h3>
+                <h3>Score: 10</h3>
+              </div>
+              <hr />
+              <h1 class="question">
+                How many days in month of feburary in year of 2022?
+              </h1>
+              <div class="options">
+                <span>Option 1</span>
+                <span style="background-color: rgb(86, 255, 120)"
+                  >Option 1</span
+                >
+                <span>Option 1</span>
+                <span>Option 1</span>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="total">
+            <h3>Total score</h3>
+            <h3>10</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
