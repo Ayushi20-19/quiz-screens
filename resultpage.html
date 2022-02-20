@@ -11,7 +11,12 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-
+    <!-- bloosom ui cdn -->
+    <link
+      rel="stylesheet"
+      href="https://blossom-ui.netlify.app/components/styles.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="resultpage.css" />
     <title>Document</title>
   </head>
@@ -34,16 +39,16 @@
           </a>
           <sidebar class="navsidebar">
             <span> <a href="./index.html">Home</a> </span>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">ScoreCards</a></li>
-            <li><a href="#">Login/Signup</a></li>
+            <span> <a href="./categories.html">Categories</a> </span>
+            <span> <a href="./resultpage.css">ScoreCards</a> </span>
+            <span> <a href="./auth.html">Login/Signup</a> </span>
           </sidebar>
         </div>
         <div class="score-content">
           <h1>Result of Quiz</h1>
-          <div class="question-card">
+          <div class="question-card flex">
             <h1>Question no 1</h1>
-            <div class="questions">
+            <div class="questions justify-content-start">
               <div class="score">
                 <h3>Question: 1/10</h3>
                 <h3>Score: 0</h3>
@@ -63,9 +68,9 @@
               <hr />
             </div>
           </div>
-          <div class="question-card">
+          <div class="question-card flex">
             <h1>Question no 2</h1>
-            <div class="questions">
+            <div class="questions justify-content-start">
               <div class="score">
                 <h3>Question: 2/10</h3>
                 <h3>Score: 10</h3>

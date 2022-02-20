@@ -11,13 +11,17 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-
+    <!-- bloosom ui cdn -->
+    <link
+      rel="stylesheet"
+      href="https://blossom-ui.netlify.app/components/styles.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
     <main>
-      <section class="body">
+      <section class="body top-0 flex-column">
         <div class="navbar">
           <h5 class="logo">QuizApp</h5>
           <nav>
@@ -34,15 +38,15 @@
           </a>
           <sidebar class="navsidebar">
             <span> <a href="./index.html">Home</a> </span>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">ScoreCards</a></li>
-            <li><a href="#">Login/Signup</a></li>
+            <span> <a href="./categories.html">Categories</a> </span>
+            <span> <a href="./resultpage.css">ScoreCards</a> </span>
+            <span> <a href="./auth.html">Login/Signup</a> </span>
           </sidebar>
         </div>
-        <div class="content">
+        <div class="content flex-column">
           <h1>QuizApp</h1>
           <p>Lets Play</p>
-          <button class="primary-btn">Play</button>
+          <button class="btn primary">Play</button>
         </div>
       </section>
     </main>
