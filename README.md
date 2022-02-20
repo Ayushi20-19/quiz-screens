@@ -28,7 +28,6 @@ https://blossom-ui.netlify.app/
 ## result display with score page
 ![image](https://user-images.githubusercontent.com/50084909/154857466-5a981da6-55ea-44c0-aece-4c2e531ecb80.png)
 ![image](https://user-images.githubusercontent.com/50084909/154857274-62ac5291-e551-4b96-9411-5644293ca137.png)
-
-##screens are responsive also with hamburger nav
+## screens are responsive also with hamburger nav
 ![image](https://user-images.githubusercontent.com/50084909/154857327-2d2b5b10-c58a-4b9a-a545-007abce4088e.png)
 
