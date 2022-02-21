@@ -20,7 +20,7 @@
   padding: 0 0 0.7rem 0;
   margin: 1rem;
   border-radius: 7px;
-  box-shadow: 2px 5px 10px var(--home-primary-color);
+  box-shadow: 2px 5px 10px var(--primary-color);
 }
 .image-genre {
   width: 100%;
@@ -32,17 +32,17 @@
   object-fit: cover;
 }
 .genre-content {
-  color: var(--home-primary-color);
+  color: var(--primary-color);
   font-size: 1.3rem;
   font-weight: 700;
 }
 .play-now-btn {
   padding: 0.4rem;
   margin-top: 0.5rem;
-  color: var(--home-primary-color);
+  color: var(--primary-color);
   border-radius: 4px;
-  border: 2px solid var(--home-primary-color);
-  background-color: var(--home-contast-color);
+  border: 2px solid var(--primary-color);
+  background-color: var(--contrast-bg-color);
 }
 
 @media only screen and (max-width: 800px) {
